@@ -1,7 +1,10 @@
 ---
-
-title: "What AI Is - And Isn't" date: 2026-07-09 draft: false tags: ["AI", "IT", "development"] categories: ["AI Best Practices"] description: "Before we get into the practical stuff, let's talk about what AI actually is, and where it'll get you killed." 
-
+title: "What AI Is - And Isn't"
+date: 2026-07-09
+draft: false
+tags: ["AI", "IT", "development"]
+categories: ["AI Best Practices"]
+description: "Before we get into the practical stuff, let's talk about what AI actually is, and where it'll get you killed."
 ---
 
 So you've decided to byte (ha! see what I did there?) the AI bullet; but you've seen the horror stories about how people have used AI to write elegantly bloated and broken code. How do you avoid creating crappy code at breakneck speed? By understanding what AI is - and isn't. Once you understand the nature of the beast, you can go about taming it, ultimately turning it from a wild stallion into a racehorse. 
