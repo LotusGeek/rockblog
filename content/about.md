@@ -4,6 +4,8 @@ date: 2026-07-09
 draft: false
 ---
 
+<img src="/images/Rock%20Bike%2001.jpg" alt="Rocky Oliver with his Indian Scout motorcycle in the Blue Ridge Mountains" class="about-photo">
+
 I've spent over 35 years in IT doing almost everything there is to do — engineer, architect, team lead, trainer, manager, executive, author, speaker, and entrepreneur. I've worked for international consultancies, pre-IPO startups, and even ran my own shop a couple of times.
 
 I've shipped code, led teams, written books, and stood on stages in front of thousands of developers all over the world.
