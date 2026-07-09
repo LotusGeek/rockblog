@@ -4,8 +4,8 @@ enableSearch = true
 # socials
 introDescription = "Elder IT Geek spittin' knowledge. 35+ years of IT scar tissue, finally put to good use. I've got stories to tell - at least the ones I haven't forgotten yet."
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
-# description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+description = "Practical advice on AI, software development, and IT careers from Rocky Oliver, a 35-year IT veteran Elder Geek, developer, and consultant. Real talk for fellow Elder IT Geeks, Newbies, and everyone in between." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+keywords = ["AI", "IT careers", "software development", "Elder IT Geek", "Rocky Oliver", "technology", "career advice"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 
 # showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 

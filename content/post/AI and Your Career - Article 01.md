@@ -4,6 +4,7 @@ date: 2026-07-06
 draft: false
 tags: ["AI", "IT", "career"]
 categories: ["AI and Your Career"]
+description: "AI is reshaping IT careers whether you like it or not. Here's straight talk on what it means for Elder IT Geeks, Newbie developers, and C-level executives — and how each can come out ahead."
 ---
 
 So, you’re staring down the barrel of AI - and it’s squarely pointed at you. If you’re an IT professional, you may be dubious. Tentative. Excited. Even scared. 
