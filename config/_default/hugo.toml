@@ -5,7 +5,7 @@ copyright = "Rocky Oliver"
 # canonifyurls = true
 
 theme = "clarity"
-disqusShortname = ""
+disqusShortname = "rockyoliver"
 
 DefaultContentLanguage = "en"
 # [languages]
