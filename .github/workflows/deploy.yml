@@ -33,8 +33,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
+
+      - name: Get Hugo theme
+        run: git clone https://github.com/chipzoller/hugo-clarity themes/clarity
 
       - name: Setup Pages
         id: pages
