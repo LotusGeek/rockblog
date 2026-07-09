@@ -1,0 +1,72 @@
+// Elder IT Geek — custom styles
+
+// Nav bar — match footer background to frame the content
+.nav_header
+  background-color: #071429 !important
+
+// Site title in nav bar
+.nav_brand
+  color: #FFCC00 !important
+  font-weight: bold !important
+  &:hover
+    color: #FFD633 !important
+
+// Links: blue normally, yellow flash on hover
+a
+  color: #3399CC
+  &:hover
+    color: #FFCC00
+
+// Light mode links
+html:not([data-mode="dim"]) a
+  color: #0066AE
+  &:hover
+    color: #CC9900
+
+// READ MORE and CTA buttons: yellow — they're meant to pop
+.button, button, [role="button"]
+  background: #FFCC00 !important
+  color: #111111 !important
+  border-color: #FFCC00 !important
+  &:hover
+    background: #FFD633 !important
+    border-color: #FFD633 !important
+
+// Tags and category badges: blue-toned, NOT yellow blocks
+.tags a, .tag
+  background: #0066AE !important
+  color: #ffffff !important
+  border: none
+  &:hover
+    background: #FFCC00 !important
+    color: #111111 !important
+
+// Category links in sidebar: same treatment
+.sidebar a[href*="/categories/"]
+  background: #0066AE !important
+  color: #ffffff !important
+  &:hover
+    background: #FFCC00 !important
+    color: #111111 !important
+
+// Footer text
+.footer
+  color: rgba(255, 255, 255, 0.85)
+  &_inner
+    grid-template-columns: 1fr
+  p
+    grid-column: 1 / -1
+
+// Footer disclaimer
+.disclaimer
+  font-size: 0.8rem
+  opacity: 0.85
+
+// Scroll-to-top button: hidden until user scrolls
+.to_top
+  opacity: 0
+  visibility: hidden
+  transition: opacity 0.3s ease, visibility 0.3s ease
+  &.visible
+    opacity: 1
+    visibility: visible

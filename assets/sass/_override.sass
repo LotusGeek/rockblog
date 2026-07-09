@@ -1,0 +1,24 @@
+// Elder IT Geek — color overrides
+// Primary:   HCL Blue      #0066AE  (lightened to #3399CC for dark bg readability)
+// Highlight: Lotus Yellow  #FFCC00
+// Bg:        Near-black    #111111
+
+$bg: #0B1E38
+$theme: #3399CC
+
+html
+  --bg: #0B1E38
+  --theme: #0066AE
+  --footer-bg: #071429
+  --table-border: #1A3A5C
+
+  &[data-mode="dim"]
+    --bg: #0B1E38
+    --theme: #3399CC
+    --footer-bg: #071429
+
+  @media (prefers-color-scheme: dark)
+    &:not([data-mode="lit"])
+      --bg: #0B1E38
+      --theme: #3399CC
+      --footer-bg: #071429
