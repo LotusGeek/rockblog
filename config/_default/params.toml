@@ -152,7 +152,7 @@ blogDir = "post"
 # website author
 [author]
 name = "Rocky Oliver"
-# photo = "images/rocky-oliver.png" # uncomment and set path when you have a photo
+photo = "images/rocky-oliver.jpg"
 
 [plausible_analytics]
 enable = false                # to enable plausible analytics set to true.
