@@ -119,5 +119,13 @@
     </div>
     {{- end }}
     {{- end }}
+    {{- with $s.blogroll }}
+    <h2 class="mt-4">Favorite Blogs</h2>
+    <ul>
+      {{- range . }}
+      <li><a href="{{ .url }}" class="nav-link" target="_blank" rel="noopener noreferrer">{{ .name }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
   </section>
 </aside>

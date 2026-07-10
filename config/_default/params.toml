@@ -149,6 +149,19 @@ blogDir = "post"
 # showRelatedInArticle = false
 # showRelatedInSidebar = false
 
+# Favorite blogs / blogroll — shown in sidebar
+[[blogroll]]
+name = "Jason Gary"
+url = "https://www.jasongary.com"
+
+[[blogroll]]
+name = "Paul Withers"
+url = "https://paulswithers.github.io"
+
+[[blogroll]]
+name = "Rands in Repose"
+url = "https://randsinrepose.com"
+
 # website author
 [author]
 name = "Rocky Oliver"
