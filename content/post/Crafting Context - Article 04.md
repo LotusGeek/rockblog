@@ -7,9 +7,7 @@ categories: ["AI Best Practices"]
 description: "A practical guide to managing AI context across sessions — persistent instructions, prompt strategy, documentation, and the planning process that keeps AI-assisted development from falling apart."
 ---
 
-> [!NOTE]
->
-> I'm not here to sell you a class, a framework, or a $500 prompt engineering course. I'm an elder IT geek with 35+ years of experience, working in R&D for a Really Big Company. Now I'm using AI to get more done in less time than I ever imagined possible even two years ago. This series is how I'm doing it. No spin, no pitch. Just real world advice.
+> **Note:** I'm not here to sell you a class, a framework, or a $500 prompt engineering course. I'm an elder IT geek with 35+ years of experience, working in R&D for a Really Big Company. Now I'm using AI to get more done in less time than I ever imagined possible even two years ago. This series is how I'm doing it. No spin, no pitch. Just real world advice.
 
 The Internet is littered with AI development horror stories, where some Joe Schmo decides he's going to be a "developer" one day, sits down at his AI, and tells it to build him an app.
 
