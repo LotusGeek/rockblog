@@ -44,7 +44,7 @@ So let's talk about ways you can actually pull off deep development with AI, wit
 
 Let's begin by talking about some basics with AI. Now, I use Claude quite a bit; that doesn't mean it's the best, and everyone has their favorite AI (or AIs) they like to use. And while Claude has many flavors, I tend to use Claude Code (Anthropic's Claude version built specifically for development) for my work. For me and the work I do, Claude Code works well. So my discussions may be a little Claude Code-centric, but the underlying concepts apply across all AIs. 
 
-Let's begin by discussing what we call a *session* in AI. A session is simply a conversation you're having with your AI client. Each session is "stateless", meaning it's unaware of previous conversations. This means every time you start a conversation with your AI it's almost like you're meeting it for the first time. It has no idea of what you've done, what you've learned, etc. even if you did all of that with the AI itself five minutes ago; in other words, it has no *context*.
+The first thing we'll discuss is what we call a *session* in AI. A session is simply a conversation you're having with your AI client. Each session is "stateless", meaning it's unaware of previous conversations. This means every time you start a conversation with your AI it's almost like you're meeting it for the first time. It has no idea of what you've done, what you've learned, etc. even if you did all of that with the AI itself five minutes ago; in other words, it has no *context*.
 
 "But Rocky, it remembers some things about me, and some general stuff about things we've done."
 
@@ -58,7 +58,7 @@ While sessions are generally stateless, some things do persist between sessions.
 - <u>Working Info</u> - this would be general rules across all sessions. Things like your preferences when dealing with GitHub, how you like to work (do you want to be challenged when something seems off, do you want terse or verbose responses, how do you like to structure your repos, naming conventions, etc.) 
 - <u>Project Info</u> - this would be information specific to the current project or repo. This would include things like file locations, github repo names, other people working on the project, project-specific rules, etc. This also includes patterns the AI notices while working - recurring bugs you've flagged, build quirks, code style you've corrected the AI on, etc. Now this level can vary greatly between AIs, but many of them, especially those with a coding focus, have some version of this.
 
-In Claude, you'll see these files mentioned as `MEMORY.md`, `CLAUDE.md`, etc.`CLAUDE.md` holds stuff I tell Claude to remember, and `MEMORY.md` holds things the AI notices, like the aforementioned recurring patterns. Claude typically manages the updating of these itself, but it can be fun to poke around in them to see exactly how it tracks this information.
+In Claude, you'll see these files mentioned as `MEMORY.md`, `CLAUDE.md`, etc. `CLAUDE.md` holds stuff I tell Claude to remember, and `MEMORY.md` holds things the AI notices, like the aforementioned recurring patterns. Claude typically manages the updating of these itself, but it can be fun to poke around in them to see exactly how it tracks this information.
 
 One quick side note - you notice that a lot of the files mentioned have a `.md` extension. `.md` is the extension for *Markdown* - a plain-text formatting standard that's become the default way AI tools read and write these kinds of files. You'll see that extension a lot here (even this very article was written as a `.md` file).
 
@@ -174,7 +174,7 @@ Basically you want to review everything you've generated with a fresh set of eye
 
 Remember, when creating the prompt for this Adversarial Review, you want to give the AI enough context to understand what's going on with the project, and what the goal of this session is - to give a critical, forensic review of the architecture and design and make sure it's as good as possible. Therefore I usually give it the Executive Summary we created earlier, I give it the location of the repository and the documentation, and I tell it that I want a forensic adversarial review of the project, design, and architecture. I also tell it that I want the findings it generates to be captured in a document called `ADVERSARIAL_REVIEW.md`. I also make sure it understands that if it has any questions, to please ask (you'd be surprised how often you need to tell the AI that).
 
-Once the process is completed and I have my `ADVERSARIAL_REVIEW.md`, I go back into my development AI and start a new session with my intro context prompt and this document, and tell it to review these findings and we discuss the suggested changes. Then I just go through the iterative process of triaging these findings and updating my design.
+Once the process is completed and I have my `ADVERSARIAL_REVIEW.md`, I go back into my development AI and start a new session with my intro context prompt and this document, and tell it to review these findings and then we discuss the suggested changes. Then I just go through the iterative process of triaging these findings and updating my design.
 
 Once this pass is done, I'm ready to begin development!
 
